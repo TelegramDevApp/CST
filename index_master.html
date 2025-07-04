@@ -142,24 +142,12 @@
           <h5 class="modal-title" id="welcomeModalLabel">Welcome to Crypto Signals & Trends</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <!-- Welcome Modal Body Update -->
-<div class="modal-body">
-  <img src="ledgerbybit.png" alt="Ledger Bybit Offer" class="img-fluid mb-3" style="max-width: 100%;">
-
-  <p>This offer is only for new ByBit customers.</p>
-  <br>
-  <button class="btn btn-primary w-100 mb-3" data-bs-toggle="modal" data-bs-target="#howItWorksModal">
-  💡 How It Works
-</button>
-
-  <a href="https://partner.bybit.com/b/CSTAPPTELEGR">
-  <button class="btn btn-primary w-100" onclick="Telegram.WebApp.sendData('User viewed welcome offer')">
-    🎁 Claim Your Free Ledger
-  </button>
-</a>
-
-</div>
-
+        <div class="modal-body">
+          <img src="ledgerbybit.png" alt="Ledger Bybit Offer" class="img-fluid mb-3" style="max-width: 100%;">
+          <p>ALL new Bybit members can join for free and receive a bonus of up to $30,000! Plus, claim your Ledger hardware wallet for free.</p>
+          <br>
+          <a href="https://partner.bybit.com/b/CSTAPPTELEGR"><button class="btn btn-primary w-100" onclick="Telegram.WebApp.sendData('User viewed welcome offer')">Claim Your Free Ledger</button></a>
+        </div>
       </div>
     </div>
   </div>
@@ -278,49 +266,6 @@
       </div>
     </div>
   </div>
-
-<!-- How It Works Modal -->
-<div class="modal fade" id="howItWorksModal" tabindex="-1" aria-labelledby="howItWorksModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="howItWorksModalLabel">How It Works</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>
-          This offer is only for <strong>new ByBit customers</strong>. Signing up with the leading crypto exchange is <strong>100% FREE</strong>.
-        </p>
-        <br>
-        <p>
-          🎁 When you join, you can claim:
-          <ul class="list-disc pl-5">
-            <li>Up to <strong>$30,000 in trading rewards</strong></li>
-            <li>A <strong>free Ledger hardware wallet</strong> to secure your assets</li>
-          </ul>
-        </p>
-        <br>
-        <p>
-          🚀 Signing up gives you full access to:
-          <ul class="list-disc pl-5">
-            <li>Real-time <strong>AI-generated crypto signals and trend alerts</strong></li>
-            <li>Daily market insights</li>
-            <li>Exclusive weekly newsletter packed with updates and strategies</li>
-          </ul>
-        </p>
-        <br>
-        <p>Join now and supercharge your trading with advanced tools and rewards.</p>
-        <a href="https://partner.bybit.com/b/CSTAPPTELEGR">
-          <button class="btn btn-primary w-100 mt-3" onclick="Telegram.WebApp.sendData('User viewed welcome offer details')">
-            Claim Your Free Ledger
-          </button>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 
   <!-- Bootstrap JS and Telegram WebApp Integration -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
